@@ -75,7 +75,7 @@ section:first-child>p {
 }
 
 section:first-child>p:hover {
-    padding: 15px 18px;
+    padding: 12px 12px;
     background-color: #fff;
     color: black;
     font-size: 28px;
