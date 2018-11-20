@@ -5,10 +5,13 @@
 
 body {
     font-family: 'Titillium Web', sans-serif;
-    background-image: url("bg3.jpg");
-    background-position: 50% -84px;
-    background-repeat: no-repeat;
+    background-image: url("bg1.png");
+}
 
+.main-background {
+    background-image: url("bg3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -83,137 +86,50 @@ section:first-child>p:hover {
     font-size: 24px;
 }
 
-.background-white {
-    background-color: #fff;
-}
-
 .flex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 .container>h1 {
     font-size: 64px;
-    padding: 70px 20px 20px 20px;
+    padding: 70px 20px 50px 20px;
 }
 
 .item {
     flex-basis: 425px;
-    padding-top: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .my_img {
     flex-basis: 400px;
-    background-image: url("me.jpg");
+    background-image: url("me.png");
     background-position: 61% 3%;
-    height: 750px;
+    height: 850px;
     background-repeat: no-repeat;
 }
 
-/*
-.main-header {
-    padding: 25vh 0 0 40px;
+i {
     font-size: 80px;
-    color: white;
-    position: relative;
-
 }
 
-.bg-header {
-    background-color: #1e1e1e;
-    height: 250px;
-    width: 800px;
-    position: absolute;
-    z-index: -1;
-    top: 237px;
-    border-radius: 40px;
+article>h4 {
+    font-size: 32px;
 }
 
-.animated-heading {
-    padding: 0px 0 0 40px;
-    position: relative;
-
-}
-
-.animated-heading>h2 {
-    position: absolute;
-    overflow: hidden;
-    font-size: 120px;
-    color: white;
-
-}
-
-.animated-heading1 {
-    animation: dnone 1s 3.6s infinite;
-    z-index: 3;
-}
-
-.animated-heading2 {
-    animation: dnone 1s 7.6s infinite;
-    z-index: 2;
-}
-
-.animated-heading3 {
-    z-index: 1;
+article>p {
+    font-size: 18px;
+    padding: 20px;
+    text-align: justify;
+    text-align-last: center;
 }
 
 
-.animated-heading1::after,
-.animated-heading2::after,
-.animated-heading3::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #1e1e1e;
-    border-left: 5px solid transparent;
+article {
+    margin: 20px;
 }
-
-.animated-heading1::after {
-    animation: typing 1.8s 2 steps(8) alternate;
-}
-
-.animated-heading2::after {
-    animation: typing 2s 2 3.6s steps(10) alternate;
-}
-
-.animated-heading3::after {
-    animation: typing 1.4s 1 7.6s steps(7) forwards;
-}
-
-@keyframes typing {
-    0% {
-        border-left: 5px solid black;
-        left: 0;
-    }
-
-    10% {
-        left: 0;
-    }
-
-    90.1% {
-        left: 100%;
-    }
-
-    99.9% {
-        border-left-color: black;
-    }
-
-    100% {
-        border-left: 5px solid #555;
-        left: 100%;
-    }
-}
-
-@keyframes dnone {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 0;
-    }
-}
-*/
