@@ -96,6 +96,7 @@ section:first-child>p:hover {
 .container>h1 {
     font-size: 64px;
     padding: 70px 20px 50px 20px;
+    font-family: 'Lobster', cursive;
 }
 
 .item {
@@ -116,10 +117,15 @@ section:first-child>p:hover {
 
 i {
     font-size: 80px;
+    color: white;
+    text-shadow: 0 0 15px black;
 }
 
 article>h4 {
     font-size: 32px;
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-shadow: 0 0 15px black;
 }
 
 article>p {
