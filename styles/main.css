@@ -88,54 +88,15 @@ section:first-child>p:hover {
 
 .flex {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-}
 
-.container>h1 {
-    font-size: 64px;
-    padding: 70px 20px 50px 20px;
-    font-family: 'Lobster', cursive;
 }
 
 .item {
-    flex-basis: 425px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.my_img {
-    flex-basis: 400px;
-    background-image: url("me.png");
-    background-position: 61% 3%;
-    height: 850px;
-    background-repeat: no-repeat;
+    flex-basis: 50%;
 }
 
 i {
     font-size: 80px;
     color: white;
     text-shadow: 0 0 15px black;
-}
-
-article>h4 {
-    font-size: 32px;
-    font-family: 'Lobster', cursive;
-    color: white;
-    text-shadow: 0 0 15px black;
-}
-
-article>p {
-    font-size: 18px;
-    padding: 20px;
-    text-align: justify;
-    text-align-last: center;
-}
-
-
-article {
-    margin: 20px;
 }
