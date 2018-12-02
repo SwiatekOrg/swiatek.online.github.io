@@ -5,7 +5,12 @@
 
 body {
     font-family: 'Titillium Web', sans-serif;
+    /*
     background-image: url("bg1.png");
+    */
+    background-image: url("bg2.jpg");
+    background-attachment: fixed;
+
 }
 
 .main-background {
@@ -13,6 +18,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 
 
 header>nav>ul {
@@ -86,17 +92,77 @@ section:first-child>p:hover {
     font-size: 24px;
 }
 
-.flex {
+/*.flex {
     display: flex;
 
 }
 
 .item {
-    flex-basis: 50%;
+    width: 50%;
+    height: 140vh;
+}
+
+article {
+    text-align: center;
+}
+
+i:first-child {
+    margin-top: 50px;
 }
 
 i {
-    font-size: 80px;
+    font-size: 130px;
     color: white;
-    text-shadow: 0 0 15px black;
+    padding: 20px;
+    position: relative;
 }
+
+i::after {
+    content: '';
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    box-shadow: 30px 0, -30px 0;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 43%;
+    transform: translate(-50%, -50%)
+}
+
+article>p {
+    font-size: 25px;
+    box-sizing: border-box;
+    padding: 40px 120px;
+    color: #fff;
+    text-align: justify;
+    text-align-last: center;
+}
+
+#sticky {
+    position: relative;
+    background-color: #555;
+    min-width: 50%;
+    height: 100vh;
+    background-image: url("bg2.jpg");
+    background-attachment: fixed;
+}
+
+#sticky header {
+    text-align: center;
+    line-height: 140vh;
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+}
+*/
